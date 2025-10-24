@@ -342,6 +342,9 @@ The layers of SIPs are as follows:
 - _Applications_. For proposals for standardized application protocols
           that interface with the Stacks blockchain.
 
+## Rider
+
+Define what a rider is and how to define
 ## SIP lifecycle
 
 The lifecycle of a SIP is summarized in the flow-chart below:
