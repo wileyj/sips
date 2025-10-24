@@ -345,6 +345,7 @@ The layers of SIPs are as follows:
 ## Rider
 
 Define what a rider is and how to define
+
 ## SIP lifecycle
 
 The lifecycle of a SIP is summarized in the flow-chart below:
