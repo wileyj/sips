@@ -1,9 +1,10 @@
-# Contributing to SIPs
+# Contributing to Stacks Improvement Proposals (SIPs)
 
 Thank you for your interest in contributing to the Stacks Improvement Proposals (SIPs) repository. This guide outlines the standards, procedures, and requirements for submitting and maintaining SIPs.
 
 ## Table of Contents
 
+- [How to Get Involved](#how-to-get-involved)
 - [Submission Requirements](#submission-requirements)
 - [Quality Standards](#quality-standards)
 - [Review Process](#review-process)
@@ -14,13 +15,34 @@ Thank you for your interest in contributing to the Stacks Improvement Proposals 
 
 ---
 
-## Submission Requirements
+## How to Get Involved
 
-### Fork-Based Workflow
+There are several ways you can get involved with the SIP process:
+
+### SIP Editor
+
+SIP editors help SIP authors make sure their SIPs are well-formed and follow the right process.  They help get SIPs ready for deep review by advancing it them from Draft to Accepted status.  If you want to become a SIP editor, 
+open an issue with your name and email to ask to be added to the list of SIP editors.
+
+### Joining a Consideration Advisory Board
+
+SIPs fall under the purview of one or more considerations, such as "technical," "economic," "governance," and so on.  A full list is in the `considerations/` directory.  Members of SIP consideration advisory boards use their domain expertise to give Accepted SIPs a deep read, and give the authors any/all feedback to help make the SIP workable. If you want to join a board, reach out to the board's chairperson via the listed contact information.
+
+### Creating a Consideration Advisory Board
+
+Anyone can create a consideration advisory board by opening a PR to create a new consideration track, and SIP authors can opt to have you review their work by adding your consideration to the SIP's list of considerations.  You are expected to vote on such SIPs in a fair and timely manner if you start a board.
+
+### Steering Committee
+
+The Steering Committee organizes the consideration advisory boards and votes to advance Recommended SIPs to Activation-in-Progress status, and then to either Ratified or Rejected status. Once they are in the process of being activated, they use a SIP's Activation section to determine whether or not the Stacks ecosystem has ratified or rejected the SIP.  Joining this committee requires the consent of the Stacks Foundation board.
+
+---
+
+## SIP Submission Requirements
 
 **All SIP submissions must originate from a fork of the SIPs repository.** Direct branches in the main repository are prohibited.
 
-**To submit a SIP:**
+### To submit a SIP
 
 1. [Fork the SIPs repository to your GitHub account](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 2. [Create a new branch in your fork for your SIP](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
@@ -153,7 +175,6 @@ The repository maintains an up-to-date index of all SIPs in BIP-style format, in
 - Author(s)
 - Status
 - Consideration / Layer
-- Relevant links (PR, Discussion, Merged File)
 
 **SIP Editors are responsible for:**
 - Maintaining this index
@@ -179,7 +200,7 @@ The repository maintains an up-to-date index of all SIPs in BIP-style format, in
 
 All SIPs must use full, explicit URLs** for references and citations.
 
-**Example:** "See https://github.com/stacksgov/sips/blob/main/sips/sip-000.md for more details`
+**Example:** "See https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md for more details`
 
 This ensures long-term readability, prevents link rot, and maintains clarity for offline readers and archival tools.
 
@@ -242,4 +263,3 @@ If you have questions about the SIP process:
 ## Compensation
 
 Compensation for committee participation is outside the scope of this document. This document neither creates provisions for nor forbids compensation for SIP-related work.
-
