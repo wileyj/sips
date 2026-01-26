@@ -15,14 +15,12 @@ A SIP may transition into the following terminal states at any time:
 - Withdrawn
 - Superseded
 
-All non-final SIPs remain permanently in the repository for historical
-Reference.
+All non-final SIPs remain permanently in the repository for historical reference.
 
 ## SIP Statuses
 
 ### Draft
-The SIP is being written and refined. It may or may not yet have an assigned SIP
-Number (provided by the SIP Editors CAB). Public feedback is encouraged, but formal evaluation by Consideration Advisory Boards (CABs) has not started.
+The SIP is being written and refined. It may or may not yet have an assigned SIP Number (provided by the SIP Editors CAB). Public feedback is encouraged, but formal evaluation by Consideration Advisory Boards (CABs) has not started.
 
 ### Accepted
 SIP Editors have reviewed the document and confirmed that:
@@ -58,12 +56,13 @@ Once Ratified:
 - Substantive changes require a new SIP  
 
 ### Rejected
-The SIP will not move forward in its current form.  
+_The SIP will not move forward in its current form._
+
 A rejected SIP remains in the repository for historical reference and may be
 submitted again as a new Draft after major revision, but may not be reconsidered unless re-submitted. 
 
 ### Withdrawn
-The author(s) have stopped work on the SIP.  
+The author(s) have stopped work on the SIP.
 A withdrawn SIP cannot be revived as-is; it must receive a new SIP number if
 re-submitted.
 
@@ -72,6 +71,7 @@ The SIP has been replaced by a newer SIP.
 The superseded SIP must include a `Superseded-By:` field, and the new SIP must
 include `Replaces:`. This header shall be added by the SIP Editors CAB, and added to any ratified SIP as appropriate, following the contributing guidelines for merging a PR. 
 
+---
 
 ## SIP Workflow (Contributor Overview)
 
@@ -88,7 +88,7 @@ The author prepares a SIP in Markdown using the official template and specifies:
 - SIP Type  
 - Relevant Consideration(s)  
 
-Next, a pull request  is opened in the SIP repository with links to any discussions and a brief description in the pull request body. 
+Next, a pull request is opened in the SIP repository with links to any discussions and a brief description in the pull request body. 
 
 ### 3. Early Review & SIP Number Assignment
 SIP Editors ensure the draft is:
@@ -141,7 +141,4 @@ To successfully advance a SIP, authors must:
 - Identify the correct SIP Type and Consideration(s)  
 - Actively engage with both public and CAB feedback in good faith  
 - Provide precise activation conditions  
-- Expect iterative review before approval  
-
-
-
+- Expect iterative review before approval

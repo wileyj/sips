@@ -25,4 +25,3 @@ When post-vote coordination necessitates activation-height changes:
 1. Create a short Rider SIP or amendment
 2. Include rationale and approvals from CABs and Editors
 3. Provide clear changelog linking to parent SIP
-

@@ -2,7 +2,7 @@
 
 Each SIP is evaluated under one or more **Considerations**, which identify the
 domain expertise required for review as well as the specific criteria used for
-ratification. Every Consideration has a corresponding **Advisory Board (CAB)**
+ratification. Every Consideration has a corresponding [Advisory Board (CAB)](committees.md#committee-mprovements)
 responsible for vetting SIPs within its domain and determining whether they are
 eligible to advance.
 
@@ -55,5 +55,3 @@ ratification process.
 
 Different Considerations may require different review timelines, criteria, and
 subject-matter expertise.
-
-

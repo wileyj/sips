@@ -5,8 +5,7 @@ The types of votes should align with types of SIPs.
 
 ### Consensus (Hard Fork) SIPs
 
-Consensus (hard fork) SIPs introduce backward-incompatible changes and require explicit
-ecosystem coordination.
+Consensus (hard fork) SIPs introduce backward-incompatible changes and require explicit ecosystem coordination.
 
 - **Vote Type:** Mandatory public vote
 - **Participants:** Token holders and/or a designated voting mechanism defined by the Steering Committee
@@ -25,8 +24,7 @@ Failure to meet the approval threshold results in rejection and shall require re
 - **Vote Type:** Mandatory CAB vote
 - **Approval Threshold:** Voting criteria defined by CAB
 - **Additional Requirements:**
-  - Clearly defined SIP activation criteria (ex: SIP is considered ratified if n wallet providers implement this proposal)
-
+  - Clearly defined SIP activation criteria (ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)
 
 ### Informational SIPs
 - **Vote Type:** Mandatory CAB vote
@@ -39,4 +37,3 @@ Failure to meet the approval threshold results in rejection and shall require re
 - **Approval Threshold:** Voting criteria defined by CAB
 - **Additional Requirements:**
   - Clearly defined SIP activation criteria
-
