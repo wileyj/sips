@@ -5,10 +5,10 @@ The types of votes should align with types of SIPs.
 
 | SIP Type              | Vote Type             | Participants | Minimum Voting Period | Approval Threshold                   | Additional Requirements |
 | :---------------------| :-------------------- | :----------- | :-------------------- | :----------------------------------- | :---------------------- |
-| Consensus (hard fork  | Mandatory public vote | Data         | 2 weeks               | Supermajority (e.g., ≥ 80% approval) | <ul><li>CAB approval is required before the vote may begin</li><li>A clear activation height must be specified</li><li>A post-vote buffer period must exist before activation</li></ul> |
-| Consensus (Soft Fork) | Mandatory CAB vote    | CAB Members  | N/A                   |  Voting criteria defined by CAB      | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
-| Informational         | Mandatory CAB vote    | Cab Members  | N/A                   | Voting criteria defined by CAB       | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
 | Meta                  | Mandatory CAB vote    | CAB Members  | N/A                   | Voting criteria defined by CAB       | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
+| Informational         | Mandatory CAB vote    | Cab Members  | N/A                   | Voting criteria defined by CAB       | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
+| Consensus (Soft Fork) | Mandatory CAB vote    | CAB Members  | N/A                   |  Voting criteria defined by CAB      | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
+| Consensus (hard fork  | Mandatory public vote | Token holders and/or a designated voting mechanism defined by the Steering Committee | 2 weeks               | Supermajority (e.g., ≥ 80% approval) | <ul><li>CAB approval is required before the vote may begin</li><li>A clear activation height must be specified</li><li>A post-vote buffer period must exist before activation</li></ul> |
 
 
 ### Consensus (Hard Fork) SIPs
