@@ -4,8 +4,8 @@
 
 SIP: 000-1  
 Title: Stacks Improvement Proposal Process  
-Author: Jesse Wiley
-Contributors: HeroGamer, Claire Gadd et al
+Author: Claire Gadd <claire@stacks.org>, HeroGamer, Jesse Wiley <jwiley@stacks.org>
+Contributors: Jude Nelson jude@stacks.org, Ken Liao yukanliao@gmail.com
 Status: Draft  
 Consideration: Governance  
 Type: Meta  
@@ -231,18 +231,7 @@ Not Applicable.
 # Activation
 
 This SIP activates once following tasks have been carried out:
-
-- The provisional Steering Committee must be appointed by the Stacks Open Internet
-  Foundation Board.
-- Mailing lists for the initial committees must be created.
-- The initial Consideration Advisory Boards must be formed, if there is interest
-  in doing so before this SIP activates.
-- A public, online SIP repository must be created to hold all non-Draft SIPs, their edit
-  histories, and any feedback.
-- A directory of Consideration Advisory Boards must be established (e.g. within
-  the SIP repository).
-- A SIP Code of Conduct should be added as a supplemental document
-- The Stacks blockchain mainnet must launch.
+- All existing CABs have approved the changes herein
 
 # Reference Implementation
 

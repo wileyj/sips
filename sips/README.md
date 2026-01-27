@@ -6,4 +6,4 @@ supplementary materials.
 
 New SIPs may be submitted via pull request, but please make sure they adhere to
 the standards described in
-[SIP-000](./sip-000/sip-000-stacks-improvement-proposal-process.md).
+[SIP-000-1](./sip-000-1/sip-000-1-stacks-improvement-proposal-process.md).
