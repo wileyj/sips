@@ -1,47 +1,22 @@
-# SIP Activation Voting
-TODO - fill in details on how votes are to happen in a standardized way for each type of SIP (as a minimum - a sup may choose to be more restrictive or longer etc). 
+# SIP Activation 
+
+## Voting Requirements
 
 The types of votes should align with types of SIPs. 
 
 | SIP Type              | Vote Type             | Participants | Minimum Voting Period | Approval Threshold                   | Additional Requirements |
 | :---------------------| :-------------------- | :----------- | :-------------------- | :----------------------------------- | :---------------------- |
-| Meta                  | Mandatory CAB vote    | CAB Members  | N/A                   | Voting criteria defined by CAB       | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
-| Informational         | Mandatory CAB vote    | Cab Members  | N/A                   | Voting criteria defined by CAB       | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
-| Consensus (Soft Fork) | Mandatory CAB vote    | CAB Members  | N/A                   |  Voting criteria defined by CAB      | Clearly defined SIP activation criteria <ul><li>ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)</li></ul>|
-| Consensus (hard fork  | Mandatory public vote | Token holders and/or a designated voting mechanism defined by the Steering Committee | 2 weeks               | Supermajority (e.g., ≥ 80% approval) | <ul><li>CAB approval is required before the vote may begin</li><li>A clear activation height must be specified</li><li>A post-vote buffer period must exist before activation</li></ul> |
+| Meta                  | Mandatory CAB vote    | CAB Members  | N/A                   | Voting criteria defined by CAB       | None |
+| Informational         | Mandatory CAB vote    | Cab Members  | N/A                   | Voting criteria defined by CAB       | None |
+| Consensus (Soft Fork) | Mandatory CAB vote    | CAB Members  | N/A                   | Voting criteria defined by CAB       | None |
+| Consensus (hard fork) | Mandatory public vote | Token holders and/or a designated voting mechanism defined by the Steering Committee | 2 weeks | Supermajority (e.g., ≥ 80% approval) | <ul><li>CAB approval is required before the vote may begin</li><li>A clear activation height must be specified</li><li>A post-vote buffer period must exist before activation</li></ul> |
 
 
-### Consensus (Hard Fork) SIPs
+## SIP Activation Requirements
 
-Consensus (hard fork) SIPs introduce backward-incompatible changes and require explicit ecosystem coordination.
+ALL SIPs are required to have a clearly defined activation criteria. 
 
-- **Vote Type:** Mandatory public vote
-- **Participants:** Token holders and/or a designated voting mechanism defined by the Steering Committee
-- **Minimum Voting Period:** 2 weeks
-- **Approval Threshold:** Supermajority (e.g., ≥ 80% approval)
-- **Additional Requirements:**
-  - CAB approval is required before the vote may begin
-  - A clear activation height must be specified
-  - A post-vote buffer period must exist before activation
+Example:
+- SIP is considered ratified if `n+1` wallet providers implement this proposal)
 
-Failure to meet the approval threshold results in rejection and shall require resubmission as a new SIP.
-
-
-### Consensus (Soft Fork) SIPs
-
-- **Vote Type:** Mandatory CAB vote
-- **Approval Threshold:** Voting criteria defined by CAB
-- **Additional Requirements:**
-  - Clearly defined SIP activation criteria (ex: SIP is considered ratified if `n+1` wallet providers implement this proposal)
-
-### Informational SIPs
-- **Vote Type:** Mandatory CAB vote
-- **Approval Threshold:** Voting criteria defined by CAB
-- **Additional Requirements:**
-  - Clearly defined SIP activation criteria
-
-### Meta SIPs
-- **Vote Type:** Mandatory CAB vote
-- **Approval Threshold:** Voting criteria defined by CAB
-- **Additional Requirements:**
-  - Clearly defined SIP activation criteria
+_Failure to meet the approval threshhold_ results in the SIP being rejected and shall require re-submission as a new SIP

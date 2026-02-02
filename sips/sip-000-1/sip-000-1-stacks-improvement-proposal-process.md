@@ -2,17 +2,17 @@
 
 # Preamble
 
-SIP: 000-1  
-Title: Stacks Improvement Proposal Process  
+SIP: 000-1
+Title: Stacks Improvement Proposal Process
 Author: Claire Gadd <claire@stacks.org>, HeroGamer, Jesse Wiley <jwiley@stacks.org>
 Contributors: Jude Nelson jude@stacks.org, Ken Liao yukanliao@gmail.com
-Status: Draft  
-Consideration: Governance  
-Type: Meta  
-Created: 2025-10-22  
-License: BSD-2-Clause  
-Discussions-To: https://github.com/stacksgov/sips/issues/228  
-Replaces: SIP-000  
+Status: Draft
+Consideration: Governance
+Type: Meta
+Created: 2025-10-22
+License: BSD-2-Clause
+Discussions-To: https://github.com/stacksgov/sips/issues/228
+Replaces: SIP-000
 
 
 # Abstract
@@ -42,8 +42,7 @@ SIPs are required for any change that affects:
 - Consensus rules or protocol behavior.
 - Core standards or interoperability guarantees.
 - Governance processes, decision-making structures, or SIP workflow itself.
-- Other cross-ecosystem processes that need durable documentation and
-  predictable activation.
+- Other cross-ecosystem processes that need durable documentation and predictable activation.
 
 Routine engineering work (bug fixes, minor refactors, non-standardized feature ) does not require a SIP and should be handled via the relevant repository’s issue tracker and contribution workflow.
 
@@ -69,7 +68,7 @@ A short ( `~100–200` word) overview of the problem and proposed solution.
 
 A concise statement of the SIP’s license that references an approved license.(See [SIP Copyright and Licensing](#sip-copyright-and-licensing)).
 
-## Summary / Motivation  
+## Summary / Motivation
 
 A clear description of:
 - The problem(s) the SIP aims to solve.
@@ -104,7 +103,7 @@ Links to production-quality implementations, where applicable. This may be added
 A discussion of relevant threat models, risks, and mitigations.
 
 ## Related Work / References
-See “Related Work” section below.
+See [Related Work](#related-work) section below.
 
 Additional sections may be included as needed, provided the main structure remains recognizable and consistent.
 
@@ -149,10 +148,7 @@ Random J. User <address@domain.tld>
 
 ## SIP Considerations
 
-A SIP's consideration determines the particular steps needed to ratify the SIP and incorporate it into the Stacks blockchain. Different SIP considerations have
-different criteria for ratification. A SIP can have more than one consideration,
-since a SIP may need to be vetted by different users with different domains of
-Expertise ([committees.md](./committees.md))
+A SIP's consideration determines the particular steps needed to ratify the SIP and incorporate it into the Stacks blockchain. Different SIP considerations have different criteria for ratification. A SIP can have more than one consideration, since a SIP may need to be vetted by different users with different domains of Expertise ([committees.md](./committees.md))
 
 
 ## SIP Types
@@ -180,12 +176,14 @@ Documents best practices, design notes, or general information relevant to the S
 
 ## Public Venues for Conducting Business
 
-The canonical set of SIPs in any state shall be recorded in the same medium where the canonical copy of this SIP is.  Presently, this is in the Github repository `https://github.com/stacksgov/sips` but may be changed in the future.
+The canonical set of SIPs in any state shall be recorded in the same medium where the canonical copy of this SIP is. Presently, this is in the Github repository `https://github.com/stacksgov/sips` but may be changed in the future.
 
-In addition, individual committees may set up and use public mailing lists or other for conducting business.  The Stacks Open Internet Foundation shall provide a means for doing so, and any discussion thereof that lead to non-trivial contributions to a SIP should be referenced by the SIP as supplemental Material
+In addition, individual committees may set up and use public mailing lists or other for conducting business. 
+
+The Stacks Open Internet Foundation shall provide a means for doing so, and any discussion thereof that lead to non-trivial contributions to a SIP should be referenced by the SIP as supplemental Material
 
 ## SIP Copyright and Licensing
-Each SIP must identify at least one acceptable license in its preamble. Source code in the SIP  may be licensed differently than the text. SIPs whose reference implementation(s) touch existing  reference implementation(s) must use the same license as the existing implementation(s) in order  to be considered. Below is a list of recommended licenses.
+Each SIP must identify at least one acceptable license in its preamble. Source code in the SIP may be licensed differently than the text. SIPs whose reference implementation(s) touch existing reference implementation(s) must use the same license as the existing implementation(s) in order to be considered. Below is a list of recommended licenses.
 - BSD-2-Clause: OSI-approved BSD 2-clause license
 - BSD-3-Clause: OSI-approved BSD 3-clause license
 - CC0-1.0: Creative Commons CC0 1.0 Universal
@@ -196,23 +194,14 @@ Each SIP must identify at least one acceptable license in its preamble. Source c
 
 # Related Work
 
-The governance process proposed in this SIP is inspired by the Python PEP
-process [1], the Bitcoin BIP2 process [2], the Ethereum Improvement Proposal [3]
-processes, the Zcash governance process [4], and the Debian GNU/Linux
-distribution governance process [5].  This SIP describes a governance process
-where top-level decision-making power is vested in a committee of elected
-representatives, which distinguishes it from Debian (which has a single elected
-project leader), Python (which has a benevolent dictator for life), and Bitcoin
-and ZCash (which vest all decision ratification power solely in the blockchain
-miners).  The reason for a top-level steering committee is to ensure that
-decision-making power is not vested in a single individual, but also to ensure
-that the individuals responsible for decisions are accountable to the community
-that elects them (as opposed to only those who have the means to participate
-in mining).  This SIP differs from Ethereum's governance
-process in that the top-level decision-making body (the "Core Devs" in Ethereum,
-and the Steering Committee in Stacks) is not only technically proficient to evaluate
-SIPs, but also held accountable through an official governance
-process.
+The governance process proposed in this SIP is inspired by the Python PEP process [1], the Bitcoin BIP2 process [2], the Ethereum Improvement Proposal [3]
+processes, the Zcash governance process [4], and the Debian GNU/Linux distribution governance process [5]. 
+
+This SIP describes a governance process where top-level decision-making power is vested in a committee of elected representatives, which distinguishes it from Debian (which has a single elected project leader), Python (which has a benevolent dictator for life), and Bitcoin and ZCash (which vest all decision ratification power solely in the blockchain miners).
+
+The reason for a top-level steering committee is to ensure that decision-making power is not vested in a single individual, but also to ensure that the individuals responsible for decisions are accountable to the community that elects them (as opposed to only those who have the means to participate in mining).
+
+This SIP differs from Ethereum's governance process in that the top-level decision-making body (the "Core Devs" in Ethereum, and the Steering Committee in Stacks) is not only technically proficient to evaluate SIPs, but also held accountable through an official governance process.
 
 [1] https://www.python.org/dev/peps/pep-0001/
 
@@ -231,7 +220,7 @@ Not Applicable.
 # Activation
 
 This SIP activates once following tasks have been carried out:
-- All existing CABs have approved the changes herein
+- All existing CABs have approved the changes herein.
 
 # Reference Implementation
 

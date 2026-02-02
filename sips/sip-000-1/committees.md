@@ -77,4 +77,4 @@ This section formalizes how decision-making authority and repository control are
 
 ### Compensation
 
-Compensation for carrying out committee duties is outside of the scope of this document.  This document does not create a provision for compensation for committee participation, but it does not forbid it either.
+Compensation for carrying out committee duties is outside of the scope of this document. This document does not create a provision for compensation for committee participation, but it does not forbid it either.

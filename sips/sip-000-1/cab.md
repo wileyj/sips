@@ -7,20 +7,16 @@ the SIPs under consideration.
 
 ## Membership
 
-All Consideration Advisory Boards begin their life as unofficial
-working groups of users who wish to review inbound SIPs according to their
-collective expertise.  If they wish to be recognized as an official
-Consideration Advisory Board, they shall submit a SIP to the Steering Committee
-per the procedure described in the [Steering Committee’s duties](steering-committee.md) document.  
+All Consideration Advisory Boards begin their life as unofficial working
+groups of users who wish to review inbound SIPs according to their collective expertise. If they wish to be recognized as an official Consideration Advisory Board, they shall submit a SIP to the Steering Committee per the procedure described in the [Steering Committee’s duties](steering-committee.md) document.
 
 Each Consideration Advisory Board shall be formally created by the SC with a designated member serving as its first interim chairperson. After this, the Consideration Advisory Board may adopt its own bylaws (link to usable bylaw) for selecting members and chairpeople. However, members should have domain expertise relevant to the consideration.
 
 ## Members
 
-Members shall serve on their respective Consideration Advisory Boards so long as
-they are in good standing with the SIP Code of Conduct and in accordance to the
-individual Board’s bylaws.  A user may serve on at most 3 (three) Consideration
-Advisory Boards concurrently.
+Members shall serve on their respective Consideration Advisory Boards so long as they are in good standing with the SIP Code of Conduct and in accordance to the individual Board’s bylaws. 
+
+A user may serve on at most 3 (three) Consideration Advisory Boards concurrently.
 
 ## Qualifications
 
@@ -32,7 +28,9 @@ Each Consideration Advisory Board shall be responsible for the following.
 
 ### Chairperson
 
-Each Consideration Advisory Board shall appoint a chairperson, who shall serve as the point of contact between the rest of the Board and the Steering Committee. If the chairperson becomes unresponsive, the SC may ask the Board to appoint a new chairperson (alternatively, the Board may appoint a new chairperson on its own and inform the SC).  The chairperson shall be responsible for maintaining the Board’s public list of members’ names and contact information as a supplementary document to the SIP that the SC ratified to recognize the Board.
+Each Consideration Advisory Board shall appoint a chairperson, who shall serve as the point of contact between the rest of the Board and the Steering Committee. If the chairperson becomes unresponsive, the SC may ask the Board to appoint a new chairperson (alternatively, the Board may appoint a new chairperson on its own and inform the SC).
+
+The chairperson shall be responsible for maintaining the Board’s public list of members’ names and contact information as a supplementary document to the SIP that the SC ratified to recognize the Board.
 
 ### Consideration Track
 

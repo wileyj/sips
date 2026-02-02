@@ -24,7 +24,7 @@ SIP Editors are concerned with shepherding SIPs from Draft status to Accepted st
 ### Post-Merge Changes
 
 Once a SIP is merged, modifications are strictly limited:
-- **Permitted  changes:** Procedural, non-substantive corrections only
+- **Permitted changes:** Procedural, non-substantive corrections only
   - Typo fixes
   - Adding vote results
   - Updating broken links
@@ -33,8 +33,6 @@ Once a SIP is merged, modifications are strictly limited:
 - **Required approval:** All post-merge edits must be reviewed and approved by a SIP Editor before merge
 
 This ensures finalized SIPs remain auditable, properly attributed, and maintain their original intent.
-
-
 
 ### Getting Users Started
 
@@ -54,11 +52,9 @@ To do this, the SIP Editor should:
 - Verify that the SIP is appropriate for its type and consideration
 - Recommend additional Considerations if appropriate
 - Ensure that the text is clear, concise, and grammatically-correct English
-- Ensure that there are appropriate avenues for discussion of the SIP listed in
-  the preamble.
+- Ensure that there are appropriate avenues for discussion of the SIP listed in the preamble.
 
-The SIP Editor does not need to provide public feedback to the SIP authors, but
-should add their name(s) to the Signed-off field in the SIP preamble once the SIP is ready to be Accepted.
+The SIP Editor does not need to provide public feedback to the SIP authors, but should add their name(s) to the Signed-off field in the SIP preamble once the SIP is ready to be Accepted.
 
 ### Acceptance
 
@@ -66,8 +62,8 @@ Once a SIP is moved to Accepted, the SIP Editor shall assign it the smallest pos
 
 ### Recruitment
 
-Each SIP Editor must list their name and contact information in an easy-to-find location in the SIP repository, as well as a list of each SIP Editor they have recommended.  In so doing, the SIP Editors shall curate an “invite tree” that shows which Editors recommended which other Editors.
+Each SIP Editor must list their name and contact information in an easy-to-find location in the SIP repository, as well as a list of each SIP Editor they have recommended. In so doing, the SIP Editors shall curate an “invite tree” that shows which Editors recommended which other Editors.
 
-A SIP Editor may recommend another user to be a SIP Editor no more than once per month, and only if they have faithfully moved at least one SIP to Accepted status in the last quarter.  If a SIP Editor does not participate in editing a SIP for a full year and a day, then they may be removed from the SIP Editor list.  The SC may remove a SIP Editor (and some or all of the users he or she recommended) if they find that the SIP Editor has violated the SIP Code of Conduct.
+A SIP Editor may recommend another user to be a SIP Editor no more than once per month, and only if they have faithfully moved at least one SIP to Accepted status in the last quarter. If a SIP Editor does not participate in editing a SIP for a full year and a day, then they may be removed from the SIP Editor list. The SC may remove a SIP Editor (and some or all of the users he or she recommended) if they find that the SIP Editor has violated the SIP Code of Conduct.
 
 Newly-Accepted SIPs, new SIP Editor recruitment, and SIP Editor retirement shall be submitted as pull requests by SIP Editors to the SIP repository.
