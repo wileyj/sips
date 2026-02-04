@@ -2,18 +2,17 @@
 
 # Preamble
 
-SIP: 000-1
-Title: Stacks Improvement Proposal Process
-Author: Claire Gadd <claire@stacks.org>, HeroGamer, Jesse Wiley <jwiley@stacks.org>
-Contributors: Jude Nelson jude@stacks.org, Ken Liao yukanliao@gmail.com
-Status: Draft
-Consideration: Governance
-Type: Meta
-Created: 2025-10-22
-License: BSD-2-Clause
-Discussions-To: https://github.com/stacksgov/sips/issues/228
-Replaces: SIP-000
-
+SIP: 000-1  
+Title: Stacks Improvement Proposal Process  
+Author: Claire Gadd <claire@stacks.org>, HeroGamer, Jesse Wiley <jwiley@stacks.org>  
+Contributors: Jude Nelson <jude@stacks.org>, Ken Liao <yukanliao@gmail.com>  
+Status: Draft  
+Consideration: Governance  
+Type: Meta  
+Created: 2025-10-22  
+License: BSD-2-Clause  
+Discussions-To: https://github.com/stacksgov/sips/issues/228  
+Replaces: SIP-000  
 
 # Abstract
 
@@ -31,7 +30,7 @@ This SIP is made available under the terms of the BSD-2-Clause license, availabl
 
 A Stacks Improvement Proposal (SIP) is the standard process for proposing changes to the Stacks blockchain and its surrounding processes.
 
-SIPs exist to ensure that changes to Stacks are:
+SIPs exist to ensure that changes to the Stacks blockchain are:
 
 - **Transparent**: proposals, rationale, and dissent are visible to the ecosystem.
 - **Reviewable**: proposals can be discussed, critiqued, and iterated on in public.
@@ -109,7 +108,7 @@ Additional sections may be included as needed, provided the main structure remai
 
 # SIP Formats and Templates
 
-All SIPs MUST be written in Markdown. Sections should use second-level headers (`##`) and deeper headers for subsections.
+All SIPs **MUST** be written in Markdown. Sections should use second-level headers (`##`) and deeper headers for subsections.
 
 To encourage consistency:
 
@@ -122,19 +121,19 @@ To encourage consistency:
 Each SIP begins with an RFC 822 style header preamble. The headers MUST appear in the following general order.
 Required:
 
-- SIP: SIP number will be assigned later by SIP Editors
+- SIP: SIP number will be assigned later by the SIP Deputies CAB
 - Title: Short descriptive title
 - Author: List of SIP authors
 - Status: Draft
 - Consideration: One or more considerations, e.g. Governance, Consensus, Economics
-- Type: One of: Consensus-Hard-Fork | Consensus-Soft-Fork | Meta | Informational
+- Type: One of Consensus-Hard-Fork | Consensus-Soft-Fork | Meta | Informational
 - Created: Date in ISO 8601 format (`YYYY-MM-DD`)
 - License: One or more approved licenses (see [SIP Copyright and Licensing](#sip-copyright-and-licensing))
 
 _Optional but recommended:_
-- Contributor: Comma separated list of authors’ real names and optionally email addresses
+- Contributor: Comma separated list of author names and optionally email addresses
 - Discussions-To: Link(s) to any relevant external discussion
-- Requires: Comma-separated list of SIP numbers this SIP depends on
+- Requires: Comma-separated list of SIP number(s) this SIP depends on
 - Replaces: SIP number(s) that this SIP replaces
 - Superseded-By: SIP number(s) that supersede this SIP
 - License-Code: License for code snippets if different from text
@@ -148,7 +147,8 @@ Random J. User <address@domain.tld>
 
 ## SIP Considerations
 
-A SIP's consideration determines the particular steps needed to ratify the SIP and incorporate it into the Stacks blockchain. Different SIP considerations have different criteria for ratification. A SIP can have more than one consideration, since a SIP may need to be vetted by different users with different domains of Expertise ([committees.md](./committees.md))
+A SIP's consideration determines the particular steps needed to ratify the SIP and incorporate it into the Stacks blockchain. Different SIP considerations have different criteria for ratification. A SIP can have more than one consideration, since a SIP may need to be vetted by different users with different domains of Expertise ([committees.md](./committees.md)).  
+See the [sip-considerations.md](./sip-considerations.md) file for more details. 
 
 
 ## SIP Types

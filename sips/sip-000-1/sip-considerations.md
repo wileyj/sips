@@ -1,6 +1,6 @@
 # SIP Considerations
 
-Each SIP is evaluated under one or more **Considerations**, which identify the domain expertise required for review as well as the specific criteria used for ratification. Every Consideration has a corresponding [Advisory Board (CAB)](committees.md#committee-mprovements) responsible for vetting SIPs within its domain and determining whether they are eligible to advance.
+Each SIP is evaluated under one or more **Considerations**, which identify the domain expertise required for review as well as the specific criteria used for ratification. Every Consideration has a corresponding [Advisory Board (CAB)](committees.md#committee-improvements) responsible for vetting SIPs within its domain and determining whether they are eligible to advance.
 
 New Considerations may be added through a **Meta** SIP under the **Governance** consideration.
 
