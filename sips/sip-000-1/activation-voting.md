@@ -2,8 +2,6 @@
 
 ## Voting Requirements
 
-The types of votes should align with types of SIPs. 
-
 | SIP Type              | Vote Type             | Participants | Minimum Voting Period | Approval Threshold                   | Additional Requirements |
 | :---------------------| :-------------------- | :----------- | :-------------------- | :----------------------------------- | :---------------------- |
 | Meta                  | Mandatory CAB vote    | CAB Members  | N/A                   | Voting criteria defined by CAB       | None |
