@@ -45,7 +45,7 @@ SIPs are required for any change that affects:
 
 Routine engineering work (bug fixes, minor refactors, non-standardized feature ) does not require a SIP and should be handled via the relevant repository’s issue tracker and contribution workflow.
 
-This specification also defines the roles involved in SIP governance—including SIP Editors, Consideration Advisory Boards (CABs), and the Steering Committee—and the responsibilities those groups hold in maintaining fairness, consistency, and transparency.
+This specification also defines the roles involved in SIP governance—including SIP Deputies, Consideration Advisory Boards (CABs), and the Steering Committee—and the responsibilities those groups hold in maintaining fairness, consistency, and transparency.
 
 Once ratified, a SIP becomes part of Stacks’ canonical technical and governance documentation and may guide future upgrades and design decisions.
 
@@ -121,11 +121,11 @@ To encourage consistency:
 Each SIP begins with an RFC 822 style header preamble. The headers MUST appear in the following general order.
 Required:
 
-- SIP: SIP number will be assigned later by the SIP Deputies CAB
+- SIP: SIP number will be assigned later by the SIP Deputies CAB (see [sip-deputies.md(./sip-deputies.md)])
 - Title: Short descriptive title
 - Author: List of SIP authors
 - Status: Draft
-- Consideration: One or more considerations, e.g. Governance, Consensus, Economics
+- Consideration: One or more considerations, e.g. Governance, Consensus, Economics (see [sip-considerations.md(./sip-considerations.md)])
 - Type: One of Consensus-Hard-Fork | Consensus-Soft-Fork | Meta | Informational
 - Created: Date in ISO 8601 format (`YYYY-MM-DD`)
 - License: One or more approved licenses (see [SIP Copyright and Licensing](#sip-copyright-and-licensing))
@@ -138,6 +138,7 @@ _Optional but recommended:_
 - Superseded-By: SIP number(s) that supersede this SIP
 - License-Code: License for code snippets if different from text
 
+## SIP Authors
 Authors should include an email address if they are willing to receive direct feedback. The format of an Author line **with** an email address is:
 
 ```text
@@ -155,7 +156,7 @@ See the [sip-considerations.md](./sip-considerations.md) file for more details.
 
 Consensus change SIPs will typically require reference implementations and carefully specified activation procedures. _Meta_ and _Informational_ SIPs focus more on process clarity and guidance.
 
-There are several kinds of SIPs, analogous to BIP types but tailored to Stacks:
+There are several kinds of SIPs, analogous to BIP types but tailored to Stacks. Additionally, each type of SIP has distinct activation voting requirements (see [activation-voting.md](./activation-voting.md)).
 
 ### Consensus – Hard Fork 
 

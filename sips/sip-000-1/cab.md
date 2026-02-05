@@ -2,8 +2,7 @@
 # Consideration Advisory Board Duties
 
 There is an Advisory Board for each SIP consideration, with a designated
-chairperson responsible for maintaining copies of all discussion and feedback on
-the SIPs under consideration.
+chairperson responsible for maintaining copies of all discussion and feedback on the SIPs under consideration.
 
 ## Membership
 
@@ -34,7 +33,7 @@ The chairperson shall be responsible for maintaining the Board’s public list o
 
 ### Consideration Track
 
-Each Consideration Advisory Board shall provide a clear and concise description of what expertise it can offer, so that SIP authors may solicit it with confidence that it will be helpful. The chairperson shall make this description available to the Steering Committee and to the SIP Editors, so that both committees can help SIP authors ensure that they receive the most appropriate feedback.
+Each Consideration Advisory Board shall provide a clear and concise description of what expertise it can offer, so that SIP authors may solicit it with confidence that it will be helpful. The chairperson shall make this description available to the Steering Committee and to the SIP Deputies, so that both committees can help SIP authors ensure that they receive the most appropriate feedback.
 
 The description shall be provided and updated by the chairperson to the SC so that the SC can provide a public index of all considerations a SIP may possess.
 
@@ -49,3 +48,7 @@ Any feedback created shall be made public. It is the responsibility of the Board
 The Steering Committee may need to follow up with the Consideration Advisory Board in order to clarify its position or solicit its advice on a particular SIP. For example, the SC may determine that a Recommended SIP needs to be considered by one or more additional Boards that have not yet been consulted by the SIP authors.
 
 The Board shall respond to the SC's request for advice in a timely manner, and shall prioritize feedback on SIPs that are under consideration for ratification.
+
+### SIP Voting
+**TODO**  
+link ./cab-voting.md here

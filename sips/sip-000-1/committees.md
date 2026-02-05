@@ -12,7 +12,7 @@ There are three types of committees with different roles in the SIP process:
 ### Consideration Advisory Boards
 - Provide expert feedback on SIPs that have been moved to Accepted status in a timely manner - Transition SIPs to Recommended status if they have met the Board's consideration criteria, or set to a Rejected status otherwise. 
 
-### SIP Editors
+### SIP Deputies
 - Identify SIPs in the Draft status that can be transitioned to Accepted status. 
 - Vet a SIP to ensure that it is well-formed, that it follows the ratification workflow faithfully
 - Ensures that a proposal does not overlap with any already-Accepted SIPs or SIPs that have since become Recommended or Ratified.
@@ -36,7 +36,7 @@ To strengthen accountability, transparency, and the effectiveness of the SIP rev
 ### Comment Resolution Prior to Vote
 - All CAB comments must be fully addressed before a SIP may advance to a public vote. 
     - Unresolved comments or substantive open questions prevent the SIP from moving forward.
-- CAB Chairs and SIP Editors share responsibility for confirming that comments are resolved.
+- CAB Chairs and SIP Deputies share responsibility for confirming that comments are resolved.
 
 ### CAB Quorum and Participation
 - CABs must establish minimum participation or quorum expectations so that a small minority cannot advance or block SIPs without broad engagement.
@@ -62,9 +62,9 @@ These improvements ensure that CABs operate predictably, transparently, and in a
 This section formalizes how decision-making authority and repository control are distributed among the primary SIP governance bodies.
 
 ### Authority Boundaries
-- The Steering Committee (SC) retains final decision authority over SIP ratification and can delegate merge permissions to Editors after CAB approval.
+- The Steering Committee (SC) retains final decision authority over SIP ratification and can delegate merge permissions to Deputies after CAB approval.
 - Consideration Advisory Boards (CABs) provide review and recommendations but do not hold merge or ratification authority.
-- SIP Editors enforce standards, manage formatting and numbering, and maintain the SIP index, but may only merge procedural or editorial updates unless authorized by the SC.
+- SIP Deputies enforce standards, manage formatting and numbering, and maintain the SIP index, but may only merge procedural or editorial updates unless authorized by the SC.
 
 ### Repository Scope
 - The SIP repository serves as a public bulletin board for both ratified and non-ratified SIPs (Drafts, Proposed, Withdrawn, and Rejected). All must remain accessible for transparency.

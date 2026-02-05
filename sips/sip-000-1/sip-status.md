@@ -18,10 +18,10 @@ All non-final SIPs remain permanently in the repository for historical reference
 ## SIP Statuses
 
 ### Draft
-The SIP is being written and refined. It may or may not yet have an assigned SIP Number (provided by the SIP Editors CAB). Public feedback is encouraged, but formal evaluation by Consideration Advisory Boards (CABs) has not started.
+The SIP is being written and refined. It may or may not yet have an assigned SIP Number (provided by the SIP Deputies CAB). Public feedback is encouraged, but formal evaluation by Consideration Advisory Boards (CABs) has not started.
 
 ### Accepted
-SIP Editors have reviewed the document and confirmed that:
+SIP Deputies have reviewed the document and confirmed that:
 - It meets all SIP formatting and licensing requirements
 - It represents a coherent and reviewable proposal
 
@@ -66,7 +66,7 @@ re-submitted.
 ### Superseded
 _The SIP has been replaced by a newer SIP._
 
-The superseded SIP must include a `Superseded-By:` field, and the new SIP must include `Replaces:`. This header shall be added by the SIP Editors CAB, and added to any ratified SIP as appropriate, following the contributing guidelines for merging a PR. 
+The superseded SIP must include a `Superseded-By:` field, and the new SIP must include `Replaces:`. This header shall be added by the SIP Deputies CAB, and added to any ratified SIP as appropriate, following the contributing guidelines for merging a PR. 
 
 ---
 
@@ -88,12 +88,12 @@ The author prepares a SIP in Markdown using the official template and specifies:
 Next, a pull request is opened in the SIP repository with links to any discussions and a brief description in the pull request body. 
 
 ### 3. Early Review & SIP Number Assignment
-SIP Editors ensure the draft is:
+SIP Deputies ensure the draft is:
 - Coherent and well scoped
 - Properly formatted and licensed
 - Suitable as a standalone proposal
 
-If approved, Editors shall:
+If approved, Deputies shall:
 - Assign a SIP number
 - Set status to **Accepted**
 - Merge the SIP
@@ -116,7 +116,7 @@ Emergency SIPs may use accelerated processes.
 
 ### 5. Sign-off & Advancement
 When CAB(s) approve the SIP:
-- CAB chairs and SIP Editors update the **Sign-off** section
+- CAB chairs and SIP Deputies update the **Sign-off** section
 - The SIP status is changed to _Recommended_
 
 

@@ -71,7 +71,7 @@ Once all criteria have been unambiguously met and all activation procedures have
 
 The Steering Committee shall give a full, fair, public, and timely evaluation to each SIP transitioned to Recommended status by Consideration Advisory Boards. A SIP shall only be considered by the SC if the Consideration Advisory Board chairpeople for each of the SIP's considerations have signed-off on the SIP (by indicating as such on the SIP's preamble). 
 
-If a SIP is moved to Rejected, Obsolete, or Replaced status, the SIP authors may appeal the process by re-submitting it in Draft status once the feedback has been addressed. The appealed SIP must cite the SC’s feedback as supplemental material, so that SIP Editors and Consideration Advisory Boards are able to verify that the feedback has, in fact, been addressed.
+If a SIP is moved to Rejected, Obsolete, or Replaced status, the SIP authors may appeal the process by re-submitting it in Draft status once the feedback has been addressed. The appealed SIP must cite the SC’s feedback as supplemental material, so that SIP Deputies and Consideration Advisory Boards are able to verify that the feedback has, in fact, been addressed.
 
 
 #### Public Coordination
