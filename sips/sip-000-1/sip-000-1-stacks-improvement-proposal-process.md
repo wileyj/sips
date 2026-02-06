@@ -124,7 +124,7 @@ Required:
 - SIP: SIP number will be assigned later by the SIP Deputies CAB (see [sip-deputies.md(./sip-deputies.md)])
 - Title: Short descriptive title
 - Author: List of SIP authors
-- Status: Draft
+- Status: Draft (see [sip-status.md](./sip-status.md))
 - Consideration: One or more considerations, e.g. Governance, Consensus, Economics (see [sip-considerations.md(./sip-considerations.md)])
 - Type: One of Consensus-Hard-Fork | Consensus-Soft-Fork | Meta | Informational
 - Created: Date in ISO 8601 format (`YYYY-MM-DD`)
