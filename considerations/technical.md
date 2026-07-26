@@ -4,8 +4,8 @@ Chairperson: Jesse Wiley
 
 Members:
 
-- Aaron Blankstein <aaron@hiro.so>
-- Brice Dobry <brice@hiro.so>
+- Aaron Blankstein <aaron@stackslabs.com>
+- Brice Dobry <brice@stackslabs.com>
 - j2p2 <i.digg.tech@gmail.com>
 - Friedger <mail@friedger.de>
 - Jesse Wiley <jesse@stacks.org>
@@ -19,9 +19,9 @@ Created-by: SIP-000
 
 ## Biographies
 
-**Aaron Blankstein**: Aaron is a staff engineer at Hiro, contributing to the Stacks blockchain and Clarity. He has been working on the Stacks blockchain for 7+ years, working on Proof-of-Transfer consensus, Clarity, and other projects.
+**Aaron Blankstein**: Aaron is a staff engineer at Stacks Labs, contributing to the Stacks blockchain and Clarity. He has been working on the Stacks blockchain for 7+ years, working on Proof-of-Transfer consensus, Clarity, and other projects.
 
-**Brice Dobry**: Brice is a staff engineer at Hiro, working on Clarinet and other developer tools, and contributing to the Stacks blockchain. Coming from a background in compilers, programming languages, and analysis tools, he is passionate about helping developers build productively, efficiently and safely.
+**Brice Dobry**: Brice is a staff engineer at Stacks Labs, working on Clarinet and other developer tools, and contributing to the Stacks blockchain. Coming from a background in compilers, programming languages, and analysis tools, he is passionate about helping developers build productively, efficiently and safely.
 
 **j2p2**: Computer Engineer and Clarity Developer. Won First and Second place in Clarity Course Cohort #2 Hackathon. Contributed to Stacks as a SIP editor; co-founded leos.guru, an educational platform, and chat.stacksgpt.xyz, a Q&A bot for Stacks & Bitcoin.
 
