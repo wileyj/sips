@@ -9,7 +9,7 @@ Per [SIP-000](https://github.com/stacksgov/sips/blob/main/sips/sip-000/sip-000-s
 
 * The CAB needs a **chairperson** that the SIP Steering Committee (SC) can reach to coordinate SIP ratification.
 
-* The CAB needs a **description** of its consideration, which needs to be detailed enough that it's clear to a SIP author wether or not their SIP falls within their purview.
+* The CAB needs a **description** of its consideration, which needs to be detailed enough that it's clear to a SIP author whether or not their SIP falls within their purview.
 
 * The CAB needs to **review Accepted SIPs** in a timely fashion, ultimately providing a recommendation to advance or reject the SIP.  This review needs to be public, and must provide actionable feedback to the SIP authors so that they can get their SIP ready for activation or resubmission.
 

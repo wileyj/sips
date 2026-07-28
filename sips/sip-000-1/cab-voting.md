@@ -11,15 +11,10 @@ These rules ensure that votes occur on stable, well-reviewed content; that chang
 
 ### Re-Vote Requirement
 - If the SIP’s intent, semantics, functional behavior, or implementation requirements change after a vote has started, a re-vote is mandatory.
-- The determination of whether a change is “substantive” shall be made jointly by the relevant CAB Chair and a SIP Editor.
+- The determination of whether a change is “substantive” shall be made jointly by the relevant CAB Chair and a SIP Deputy.
 
 ### Defined Lifecycle Phases
-- SIPs must progress through the following standardized phases:
-    1. **Draft:** SIP is open for early feedback, incomplete, or undergoing revisions.
-    2. **Proposed:** SIP has undergone initial cleanup and is structurally complete.
-    3. **CAB Review:** SIP is under active subject-matter review and comment resolution.
-    4. **Public Vote (if applicable):** Only after CAB approval and final sign-off.
-    5. **Accepted / Rejected:** Determined by the vote outcome and activation rules.
+Refer to the table in [sip-status.md](./sip-status.md#sip-lifecycle)
 
 ### Minimum Timeline Requirements
 - To ensure sufficient review and prevent rushed governance:

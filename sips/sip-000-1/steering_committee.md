@@ -44,34 +44,66 @@ Any group of users can form an unofficial working group to help provide feedback
 
 Once recognized, Consideration Advisory Boards may not be dissolved or dismissed, unless there are no Accepted or Recommended SIPs that request their consideration. If this is the case, then the SC may vote to rescind recognition of a Consideration Advisory Board with a two-thirds majority at one of its Public Meetings.
 
+_If a recognized Consideration Advisory Board has no current members_ — whether because all members resigned, were removed, or the Board was never fully seated — the SC is responsible for seating initial members and a chairperson to restore the Board to active status, following the same recognition process described above. This is distinct from formally rescinding a Board's recognition, which requires that there be no Accepted or Recommended SIPs requesting its consideration, per the preceding paragraph.
+
 In order to identify users who would form a Consideration Advisory Board, users should organize into an unofficial working group and submit a SIP to petition that SC recognizes the working group as a Consideration Advisory Board. This petition must take the form of a Meta-type SIP, and may be used to select the initial chairperson and define the Board's domain(s) of expertise, bylaws, membership, meeting procedures, communication channels, and so on, independent of the SC. The SC would only be able to ratify or reject the SIP.
 
 The SC shall maintain a public index of all Consideration Advisory Boards that are active, including contact information for the Board and a summary of what kinds of expertise the Board can offer. This index is meant to be used by SIP authors to help route their SIPs towards the appropriate reviewers before being taken up by the SC.
 
-#### Voting on Technical SIPs
+#### Steering Committee Certification
 
-All technical-consideration SIPs shall require an 80% vote. If it is a Consensus-type SIP for a hard fork, then a unanimous vote shall be required. The Steering Committee shall select Recommended SIPs for ratification by moving them to Activation-In-Progress status. If a SIP is voted on and is not moved to Activation-in-Progress, then it shall be moved to Rejected status, and the SC shall provide a detailed explanation as to why they made their decision (see below).
+The Steering Committee does not vote on the merits of a SIP. A SIP's approval is
+determined entirely by its required CAB vote(s) (per [procedure.md](procedure.md)) and, where
+applicable, a public vote (per [activation-voting.md](activation-voting.md)). These votes govern the
+transition from Recommended to Activation-In-Progress, and require no separate SC vote.
 
-#### Voting on Non-technical SIPs
+#### Monitoring Activation-In-Progress SIPs
 
-Not all SIPs are technical in nature. All non-technical SIPs shall require only a two-thirds majority vote to transition it to Activation-In-Progress status. The SC members must provide a public explanation for the way it voted as supplementary materials with the ratified non-technical SIP (see below).
+While a SIP is in Activation-In-Progress status, the SC is responsible for tracking
+progress against the criteria in its Activation section — for example, monitoring miner
+signaling thresholds, block-height targets, or other conditions the Activation section
+specifies. The Activation section functions as an instruction manual the SC follows
+faithfully; the SC does not have discretion to substitute its own judgment for what the
+Activation section requires.
 
-If the SC votes to move a non-technical SIP to Activation-In-Progress status, but does not receive the requisite number of votes, then the SIP shall be transferred to Rejected status, and the SC shall provide a detailed explanation as to why they made their decision (see below).
+If, in the course of this monitoring, the SC determines that the Activation section's
+criteria cannot be objectively verified as met or not met — for example, due to
+ambiguous instructions, missing measurement criteria, or the absence of a prescribed
+activation timeout — the SC may return the SIP to _Recommended_ status by unanimous
+agreement of all currently seated SC members, with a detailed public explanation of
+the deficiency. This is distinct from CAB review, which occurs before a SIP
+reaches Activation-In-Progress and does not evaluate whether activation has actually
+occurred. A SIP returned in this way must have its Activation section revised and
+resubmitted for CAB approval before it can re-enter _Activation-In-Progress_.
 
-#### Overseeing SIP Activation and Ratification
+#### Certification vote
 
-Once a SIP is in Activation-In-Progress status, the SC shall be responsible for overseeing the procedures and criteria in the SIP’s Activation section. 
+Once a SIP in Activation-In-Progress status has satisfied all criteria in its Activation
+section, the Steering Committee shall hold a single certification vote to confirm that:
 
-The Activation section of a SIP can be thought of as an “instruction manual” and/or “checklist” for the SC to follow to determine if the SIP has been accepted by the Stacks users. The SC shall strictly adhere to the process set forth in the Activation section. If the procedure and/or criteria of the Activation section cannot be met, then the SC may transfer the SIP to Rejected status and ask the authors to re-submit the SIP with an updated Activation section.
+- The correct CAB(s) for the SIP's consideration(s) voted, with proper quorum, per
+[procedure.md](procedure.md).
+- Any required public vote met its own quorum, threshold, and procedural requirements
+per [activation-voting.md](activation-voting.md).
+- All conditions in the SIP's Activation section have been objectively satisfied.
 
-Once all criteria have been unambiguously met and all activation procedures have been followed, the SC shall transition the SIP to Ratified status. Due to the hands-on nature of the Activation section, the SC may deem it appropriate to reject a SIP solely on the quality of its Activation section. Reasonable grounds for rejection include, but are not limited to, ambiguous instructions, insufficiently-informative activation criteria, lack of a prescribed activation timeout, and so on.
+This certification vote requires unanimous agreement of all currently seated SC
+members.
+
+If certification fails because a requirement above was not met, the SC shall provide a
+detailed public explanation of which requirement failed. The SIP remains in
+Activation-In-Progress status pending correction — a failed certification is a
+procedural finding, not a rejection of the SIP's merits, and does not move the SIP to
+Rejected status.
+
+Upon successful certification, the SC shall update the SIP's Status field to Ratified.
 
 
 #### Feedback on Recommended SIPs
 
-The Steering Committee shall give a full, fair, public, and timely evaluation to each SIP transitioned to Recommended status by Consideration Advisory Boards. A SIP shall only be considered by the SC if the Consideration Advisory Board chairpeople for each of the SIP's considerations have signed-off on the SIP (by indicating as such on the SIP's preamble). 
+The Steering Committee shall give a full, fair, public, and timely evaluation to each SIP transitioned to Recommended status by Consideration Advisory Boards. A SIP shall only be considered by the SC if the Consideration Advisory Board chairperson for each of the SIP's considerations has signed-off on the SIP (by indicating as such on the SIP's preamble). 
 
-If a SIP is moved to Rejected, Obsolete, or Replaced status, the SIP authors may appeal the process by re-submitting it in Draft status once the feedback has been addressed. The appealed SIP must cite the SC’s feedback as supplemental material, so that SIP Deputies and Consideration Advisory Boards are able to verify that the feedback has, in fact, been addressed.
+If a SIP is moved to a Rejected status, the SIP authors may appeal the process by re-submitting it in Draft status once the feedback has been addressed. The appealed SIP must cite the SC’s feedback as supplemental material, so that SIP Deputies and Consideration Advisory Boards are able to verify that the feedback has, in fact, been addressed.
 
 
 #### Public Coordination

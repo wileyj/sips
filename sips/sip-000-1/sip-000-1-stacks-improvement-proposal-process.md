@@ -1,5 +1,3 @@
-
-
 # Preamble
 
 SIP: 000-1  
@@ -16,24 +14,39 @@ Replaces: SIP-000
 
 # Abstract
 
-A Stacks Improvement Proposal (SIP) is a design document that provides information to Stacks ecosystem participants concerning the design and ongoing operation of the Stacks blockchain. Each SIP must provide a clear and concise description of features, processes, and/or standards for the Stacks blockchain and its operators to adopt, with sufficient detail for a reasonable practitioner to create an independent but compatible implementation of the proposed improvement.
+A Stacks Improvement Proposal (SIP) is a design document that provides
+information to Stacks ecosystem participants concerning the design and ongoing
+operation of the Stacks blockchain. Each SIP must provide a clear and concise
+description of features, processes, and/or standards for the Stacks blockchain
+and its operators to adopt, with sufficient detail for a reasonable
+practitioner to create an independent but compatible implementation of the
+proposed improvement.
 
-SIPs are the primary mechanism by which new features are proposed and described, and by which input from Stacks participants is collected. A SIP is expected to document *what* change is being proposed, *why* it is needed, and *how* it should be activated or implemented, so that the evolution of Stacks remains transparent, reviewable, and grounded in verifiable consensus.
+SIPs are the primary mechanism by which new features are proposed and 
+described, and by which input from Stacks participants is collected. A SIP is 
+expected to document *what* change is being proposed, *why* it is needed, an 
+*how* it should be activated or implemented, so that the evolution of Stacks 
+remains transparent, reviewable, and grounded in verifiable consensus.
 
-Because SIPs are maintained as text files in a version-controlled repository, their revision history forms the canonical record of protocol and governance design decisions.
+Because SIPs are maintained as text files in a version-controlled repository,
+their revision history forms the canonical record of protocol and governance 
+design decisions.
 
 # License and Copyright
 
-This SIP is made available under the terms of the BSD-2-Clause license, available at https://opensource.org/licenses/BSD-2-Clause. This SIP’s copyright is held by the Stacks Open Internet Foundation.
+This SIP is made available under the terms of the BSD-2-Clause license, 
+available at https://opensource.org/licenses/BSD-2-Clause. This SIP’s copyright 
+is held by the Stacks Open Internet Foundation.
 
 # What is a SIP?
 
-A Stacks Improvement Proposal (SIP) is the standard process for proposing changes to the Stacks blockchain and its surrounding processes.
+A Stacks Improvement Proposal (SIP) is the standard process for proposing 
+changes to the Stacks blockchain and its surrounding processes.
 
 SIPs exist to ensure that changes to the Stacks blockchain are:
 
 - **Transparent**: proposals, rationale, and dissent are visible to the ecosystem.
-- **Reviewable**: proposals can be discussed, critiqued, and iterated on in public.
+- **Reviewable**: proposals can be discussed, critiqued, and iterated on in  public.
 - **Technically sound**: proposals meet minimum standards for clarity, completeness, and safety.
 
 SIPs are required for any change that affects:
@@ -43,9 +56,13 @@ SIPs are required for any change that affects:
 - Governance processes, decision-making structures, or SIP workflow itself.
 - Other cross-ecosystem processes that need durable documentation and predictable activation.
 
-Routine engineering work (bug fixes, minor refactors, non-standardized feature ) does not require a SIP and should be handled via the relevant repository’s issue tracker and contribution workflow.
+Routine engineering work (bug fixes, minor refactors, non-standardized feature)
+does not require a SIP and should be handled via the relevant repository’s
+issue tracker and contribution workflow.
 
-This specification also defines the roles involved in SIP governance—including SIP Deputies, Consideration Advisory Boards (CABs), and the Steering Committee—and the responsibilities those groups hold in maintaining fairness, consistency, and transparency.
+This specification also defines the roles involved in SIP governance—including
+SIP Deputies, Consideration Advisory Boards (CABs), and the Steering Committee, and the responsibilities those groups hold in maintaining fairness, 
+consistency, and transparency.
 
 Once ratified, a SIP becomes part of Stacks’ canonical technical and governance documentation and may guide future upgrades and design decisions.
 
@@ -121,17 +138,18 @@ To encourage consistency:
 Each SIP begins with an RFC 822 style header preamble. The headers MUST appear in the following general order.
 Required:
 
-- SIP: SIP number will be assigned later by the SIP Deputies CAB (see [sip-deputies.md(./sip-deputies.md)])
+- SIP: Blank until assigned by the SIP Deputies CAB upon reaching Accepted status (see [sip-deputies.md](./sip-deputies.md))
 - Title: Short descriptive title
 - Author: List of SIP authors
 - Status: Draft (see [sip-status.md](./sip-status.md))
-- Consideration: One or more considerations, e.g. Governance, Consensus, Economics (see [sip-considerations.md(./sip-considerations.md)])
+- Consideration: One or more considerations, e.g. Technical, Economic, Governance (see [sip-considerations.md](./sip-considerations.md))
 - Type: One of Consensus-Hard-Fork | Consensus-Soft-Fork | Meta | Informational
 - Created: Date in ISO 8601 format (`YYYY-MM-DD`)
 - License: One or more approved licenses (see [SIP Copyright and Licensing](#sip-copyright-and-licensing))
+- Sign-off: Blank until a SIP has been approved by the various CABs
 
 _Optional but recommended:_
-- Contributor: Comma separated list of author names and optionally email addresses
+- Contributors: Comma separated list of author names and optionally email addresses
 - Discussions-To: Link(s) to any relevant external discussion
 - Requires: Comma-separated list of SIP number(s) this SIP depends on
 - Replaces: SIP number(s) that this SIP replaces
@@ -148,7 +166,7 @@ Random J. User <address@domain.tld>
 
 ## SIP Considerations
 
-A SIP's consideration determines the particular steps needed to ratify the SIP and incorporate it into the Stacks blockchain. Different SIP considerations have different criteria for ratification. A SIP can have more than one consideration, since a SIP may need to be vetted by different users with different domains of Expertise ([committees.md](./committees.md)).  
+A SIP's consideration determines the particular steps needed to ratify the SIP and incorporate it into the Stacks blockchain. Different SIP considerations have different criteria for ratification. A SIP can have more than one consideration, since a SIP may need to be vetted by different users with different domains of expertise ([committees.md](./committees.md)).  
 See the [sip-considerations.md](./sip-considerations.md) file for more details. 
 
 
@@ -158,13 +176,13 @@ Consensus change SIPs will typically require reference implementations and caref
 
 There are several kinds of SIPs, analogous to BIP types but tailored to Stacks. Additionally, each type of SIP has distinct activation voting requirements (see [activation-voting.md](./activation-voting.md)).
 
-### Consensus – Hard Fork 
+### Consensus-Hard-Fork 
 
-Proposes changes to consensus rules that require all Stacks full nodes and implementations to upgrade in order to remain compatible. These SIPs must clearly specify the affected layer(s) and activation criteria.
+Proposes changes to consensus rules that require all Stacks full nodes and implementations to upgrade in order to remain compatible. These SIPs must clearly specify activation criteria.
 
-### Consensus – Soft Fork 
+### Consensus-Soft-Fork 
 
-Proposes changes that restrict or refine consensus behavior in a way that is forward-compatible for upgraded nodes, but may impose new validity constraints. These SIPs also specify the affected layer(s) and activation conditions.
+Proposes changes that restrict or refine consensus behavior in a way that is forward-compatible for upgraded nodes, but may impose new validity constraints. These SIPs must clearly specify activation criteria.
 
 ### Meta
 

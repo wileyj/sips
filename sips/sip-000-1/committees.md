@@ -2,21 +2,33 @@
 
 The act of deciding the status of a SIP is handled by a set of designated committees. These committees are composed of users who dedicate their time and expertise to curate the blockchain, ratifying SIPs on behalf of the rest of the ecosystem’s users.
 
-There are three types of committees with different roles in the SIP process:
+There are two categories of committee in the SIP process: the **Steering Committee (SC)**,
+and **Consideration Advisory Boards (CABs)**. CABs come in two kinds — subject-matter CABs
+and the SIP Deputies CAB — described below.
 
 ### Steering Committee (SC)
 - Select _Recommended_ status SIPs to be activated
 - Determine whether or not a SIP has been activated and thus ratified
 - Formally recognize [Consideration Advisory Boards](cab.md) 
 
-### Consideration Advisory Boards
+### Consideration Advisory Boards (Subject-Matter CABs)
+One per Consideration (Technical, Economic, Governance, Ethics, Diversity):
 - Provide expert feedback on SIPs that have been moved to Accepted status in a timely manner - Transition SIPs to Recommended status if they have met the Board's consideration criteria, or set to a Rejected status otherwise. 
 
-### SIP Deputies
+### SIP Deputies (the Deputies CAB)
+A CAB responsible for the inbound funnel rather than subject-matter review. Unlike
+subject-matter CABs, the Deputies CAB does not hold a formal vote to advance a SIP;
+Deputies work by consensus to confirm formatting and numbering.
 - Identify SIPs in the Draft status that can be transitioned to Accepted status. 
 - Vet a SIP to ensure that it is well-formed, that it follows the ratification workflow faithfully
 - Ensures that a proposal does not overlap with any already-Accepted SIPs or SIPs that have since become Recommended or Ratified.
-    
+
+### Committee Membership Limits
+A user may serve on at most three (3) CABs concurrently, counting both subject-matter and
+Deputies CAB membership toward that limit. An SC member may not normally serve concurrently
+on any CAB (subject-matter or Deputies), absent a unanimous SC exception, per Steering
+Committee Duties.
+
 Any user may serve on a committee. However, all Stacks committee members must abide by the SIP Code of Conduct and must have a history of adhering to it. Failure to adhere to the Code of Conduct shall be grounds for immediate removal from a committee, with a potential prohibition against serving on any future committees.
 
 ---
@@ -47,7 +59,7 @@ To strengthen accountability, transparency, and the effectiveness of the SIP rev
 - A public record of CAB membership, attendance expectations, and replacement criteria shall be maintained.
 
 ### Steering Committee Refresh
-- Before implementing governance-impacting SIPs, the Steering Committee must be refreshed or reconfirmed to ensure legitimacy and broad community trust.
+- Before implementing governance-impacting SIPs, the Steering Committee should be refreshed or reconfirmed where feasible, to support legitimacy and broad community trust. This is a recommended practice, not a precondition for a SIP's activation or certification.
 
 ### Communication Expectations
 - CAB members and SIP authors are expected to maintain clear, timely communication during all review phases.
@@ -67,13 +79,13 @@ This section formalizes how decision-making authority and repository control are
 - SIP Deputies enforce standards, manage formatting and numbering, and maintain the SIP index, but may only merge procedural or editorial updates unless authorized by the SC.
 
 ### Repository Scope
-- The SIP repository serves as a public bulletin board for both ratified and non-ratified SIPs (Drafts, Proposed, Withdrawn, and Rejected). All must remain accessible for transparency.
+- The SIP repository serves as a public bulletin board for both ratified and non-ratified SIPs (Draft, Accepted, Recommended, Activation-In-Progress, Withdrawn, and Rejected). All must remain accessible for transparency.
 
 ### What Qualifies as a SIP
 - A SIP must propose a change, standard, or process affecting the design, governance, or operation of the Stacks blockchain. General discussions or implementation tasks should remain GitHub issues, not SIPs.
 
 ### Governance Maintenance
-- The Steering Committee must be refreshed or re-confirmed before enacting new governance SIPs (e.g., SIP-000-1) to preserve legitimacy.
+- Where feasible, the Steering Committee should be refreshed or re-confirmed before enacting new governance SIPs. This is aspirational guidance; a SIP's Activation section is the sole authoritative checklist for its own activation and certification (see [Steering Committee Certification](./steering_committee.md#steering-committee-certification)).
 
 ### Compensation
 

@@ -18,7 +18,7 @@ SIP Deputies are concerned with shepherding SIPs from Draft status to Accepted s
 
 | SIP Status | Who Can Edit | Process |
 |------------|--------------|---------|
-| **Draft / Proposed** | Authors | May open PRs and make minor updates, subject to review |
+| **Draft** | Authors | May open PRs and make minor updates, subject to review |
 | **Accepted / Ratified** | SIP Deputies, CAB members, Steering Committee | Authors may suggest corrections via new PRs but cannot directly commit |
 
 ### Post-Merge Changes
@@ -54,7 +54,7 @@ To do this, the SIP Deputy should:
 - Ensure that the text is clear, concise, and grammatically-correct English
 - Ensure that there are appropriate avenues for discussion of the SIP listed in the preamble.
 
-The SIP Deputy does not need to provide public feedback to the SIP authors, but should add their name(s) to the Signed-off field in the SIP preamble once the SIP is ready to be Accepted.
+The SIP Deputy does not need to provide public feedback to the SIP authors, but should add their name(s) to the `Sign-off` field in the SIP preamble once the SIP is ready to be Accepted.
 
 ### Acceptance
 
@@ -64,6 +64,6 @@ Once a SIP is moved to Accepted, the SIP Deputy shall assign it the smallest pos
 
 Each SIP Deputy must list their name and contact information in an easy-to-find location in the SIP repository, as well as a list of each SIP Deputy they have recommended. In so doing, the SIP Deputies shall curate an “invite tree” that shows which Deputies recommended which other Deputies.
 
-A SIP Deputy may recommend another user to be a SIP Deputy no more than once per month, and only if they have faithfully moved at least one SIP to Accepted status in the last quarter. If a SIP Deputy does not participate in editing a SIP for a full year and a day, then they may be removed from the SIP Deputy list. The SC may remove a SIP Deputy (and some or all of the users he or she recommended) if they find that the SIP Deputy has violated the SIP Code of Conduct.
+A SIP Deputy may recommend another user to be a SIP Deputy no more than once per month, and only if they have moved at least one SIP to Accepted status since becoming a Deputy, and have not gone more than a year and a day without doing so. If a SIP Deputy does not participate in editing a SIP for a full year and a day, then they may be removed from the SIP Deputy list. The SC may also remove a SIP Deputy (and some or all of the users they had recommended) if they find that the SIP Deputy has violated the SIP Code of Conduct.
 
 Newly-Accepted SIPs, new SIP Deputy recruitment, and SIP Deputy retirement shall be submitted as pull requests by SIP Deputies to the SIP repository.
